@@ -1,0 +1,86 @@
+@import "basics.css";
+
+.userProfile {
+    display: flex;
+    align-items: center;
+
+}
+
+.userProfile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    margin: 30px 20px;
+}
+
+.user_name {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.mark {
+    margin: 50px 150px 0px 5px;
+    font-weight: bold;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 12px;
+}
+
+.fa-stack-exchange {
+    font-size: 40px;
+}
+
+.midcontent {
+    display: flex;
+    font-size: 50px;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.midcontent div {
+    margin: 20px 30px;
+}
+
+.midcontent p {
+    font-size: 15px;
+}
+
+.secondline {
+    justify-content: left;
+}
+
+.midline {
+    border-bottom: 2px solid #00000021;
+    margin: 0px 30px;
+}
+
+.bottomcontent {
+    display: flex;
+    font-size: 50px;
+    justify-content: left;
+    text-align: center;
+}
+
+.bottomcontent div {
+    margin: 20px 20px;
+}
+
+.bottomcontent p {
+    font-size: 15px;
+}
+
+.bottomcontent img {
+    border-radius: 10px;
+}
+
+.Suggestions {
+    margin: 20px 30px 10px 30px;
+    font-weight: bold;
+}

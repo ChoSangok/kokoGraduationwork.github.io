@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    position: relative;
+    max-width: 500px;
+    min-height: 860px;
+    height: 100vh;
+    border: 3px solid rgba(0, 118, 236, 0.315);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px 0px;
+    box-shadow: 0px 0px 5px rgba(0, 118, 236, 0.315);
+
+}
+
+.point {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    right: 0px;
+    margin: -35px 12px 0px 0px;
+}
+
+.statusbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 3px;
+}
+
+.statusbar p,
+.statusbar i {
+
+    padding: 0px 3px;
+}
+
+.statusbar span {
+    display: flex;
+    align-items: center;
+}
+
+.fa-battery-quarter {
+    font-size: 20px;
+}
+
+
+.toplist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px 0px 10px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.toplist i {
+    padding: 0px 10px;
+}
+
+
+.bottomlist {
+    background-color: rgba(0, 0, 0, 0.123);
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 20px 30px;
+}
+
+.bottomlist p {
+    position: absolute;
+    background-color: rgb(255, 87, 87);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    color: #fff;
+    top: 20px;
+    right: 290px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* color---------------- */
+.text_Gray {
+    color: rgba(0, 0, 0, 0.5)
+}

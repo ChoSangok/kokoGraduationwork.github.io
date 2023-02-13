@@ -1,0 +1,46 @@
+@import "basics.css";
+
+body {
+    position: relative;
+}
+
+.chattingroom {
+    margin: 30px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.chattingroom img {
+    border-radius: 40%;
+    margin-right: 10px;
+
+}
+
+
+
+.user_name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.user_chatting {
+    margin-top: 5px;
+}
+
+.chattinginfo {
+    position: absolute;
+    margin-top: -30px;
+    right: 20px;
+    text-align: center;
+}
+
+.count {
+    position: absolute;
+    margin-top: 10px;
+    background-color: rgb(255, 87, 87);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    right: 0px;
+}

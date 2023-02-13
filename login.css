@@ -1,0 +1,58 @@
+@import "basics.css";
+
+
+
+
+
+.login_titlet {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: bold;
+}
+
+.login_subtitlet {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.loginform {
+    margin: 100px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background: none;
+    font-size: 25px;
+    border: none;
+}
+
+.form_user {
+    padding: 30px 0px 10px 0px;
+    border-bottom: 2px solid #00000021;
+    outline: none;
+}
+
+input:nth-child(2) {
+    margin-bottom: 20px;
+}
+
+.form_btn {
+    font-size: 20px;
+    background-color: rgba(207, 208, 209, 0.315);
+    width: 400px;
+    height: 50px;
+    margin: 10px 0px;
+}
+
+.passwordfind {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}

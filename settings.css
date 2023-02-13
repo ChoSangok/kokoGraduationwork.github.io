@@ -1,0 +1,51 @@
+@import "basics.css";
+
+.contents {
+    font-size: 27px;
+    margin: 30px 0px;
+}
+
+.content {
+    display: flex;
+    margin: 10px 0px 25px 30px;
+    align-items: center;
+}
+
+.content p {
+    margin-left: 20px;
+}
+
+.infor {
+    border: 1px solid #000;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    line-height: 25px;
+}
+
+.Version {
+    padding-left: 25px;
+}
+
+.text_Gray {
+    position: absolute;
+    right: 10px;
+}
+
+.N {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.border {
+    border-bottom: 1px solid #00000021;
+}
